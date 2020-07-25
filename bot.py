@@ -1580,7 +1580,7 @@ def menu(update, context):
 try:
 	print("1): Free")
 	print("2): Strict")
-	ans = input("Choose: ")
+	ans = input("2")
 
 	if ans == "1" or ans == "2":
 		for a in comandss:
