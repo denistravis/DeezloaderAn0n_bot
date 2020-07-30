@@ -1617,8 +1617,4 @@ def menu(update, context):
 					os.remove(loc_dir + a)
 				except OSError:
 					pass
-except KeyboardInterrupt:
-	print("\nSTOPPING...")
-	sets.stop()
-	os.rmdir(loc_dir)
-	exit()
+
