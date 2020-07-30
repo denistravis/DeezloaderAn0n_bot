@@ -1577,17 +1577,6 @@ def menu(update, context):
 					)
 				).start()
 
-try:
-	print("1): Free")
-	print("2): Strict")
-	ans = input("Choose: ")
-
-	if ans == "1" or ans == "2":
-		for a in comandss:
-			sets.dispatcher.add_handler(
-				CommandHandler(a, menu)
-			)
-
 		sets.dispatcher.add_handler(
 			MessageHandler(
 				Filters.audio |
